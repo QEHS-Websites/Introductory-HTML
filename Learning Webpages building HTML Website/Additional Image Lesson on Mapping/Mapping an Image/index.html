@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Mappable Image</title>
+
+    <meta name="author" content="Mark Mercer">
+    <meta name="description" content="Demonstrating a Mapping of an Image"> <!-- Webpage Description -->
+    <meta name="keywords" content="Image, HTML4, Clickable"> <!-- Key Words for conducting searches in Search Engines -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+
+    <header><h1>Mapping an Image</h1></header>
+    <nav style="background-image:url('https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg')"><h2>Navigation Menu</h2></nav>
+    <!-- Added a background image to the Nav DIV, and needs to be formatted with the syle attribute using width and height -->
+    <aside><p>The Aside Space</p></aside>
+    <section><h3>Steps in Creating a Mappable Image</h3><article>
+        <ol>
+          <li>Pick an Image
+          <li>Check its folder properties
+          <li>Hard code Dimensions
+          <li>Record URL and Dimensions in blockquote, cite, and comments for date accessed and origonal dimensions
+          <li>Add usemap attribute, map tag linked to the usemap class
+          <li>Add area tags with shape, coords, alt, href , and target attributes
+          <li>Add a background image to the Navigation HTML Layout: introduces the borders of the boundaries for each frame
+        </ol>
+        <ul>
+          <li>Notice: this also introduces how to combine the different pieces of code to layout images in different places
+        </ul>
+        <p>Other shapes in a mapped image are possible too ...</p>
+        <ul>
+          <li>Polygon might be the most useful here since rectangles and circles do not cover the frames well.
+          <li>Change the image to include plygons that are more defined of the shape
+          <li>Hint: use a paper map first and record coordiantes with all the clues of what your browser is showing
+      </article>
+      <article>
+        <!-- Example Mapped Image-->
+        <blockquote cite="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg">
+          <!-- Date Accessed 20181001-->
+          <!-- Origonal Dimensions: width:1300px, height:606px-->
+        <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images/23089796-wow-in-pop-art.jpg" title="WOW" usemap="#workmap" style="width:650px;height:303px"/>
+        <map name="workmap">
+          <!-- Work on a piece of paper to add up coordinates to see boundaries not shown below, will help -->
+          <area shape="rect" coords="0,16,185,281" alt="First W" href="https://www.edeprato.com/thumbs/416x284/uploads/Northgate_Killarney_254.JPG" target="_blank"> <!-- Start at 0,0,__,__ and find the bottom right corner, then adjust teh top left corner from 0,0 -->
+          <area shape="circle" coords="250,150,80" alt="O" href="http://queenelizabeth.epsb.ca/" target="_blank" > <!-- Find the center of the shape wtih a small radius, _,_,20, then expand the radius -->
+          <area shape="rect" coords="315,50,450,270" alt="Second W" href="https://www.constructioncanada.net/wp-content/uploads/2016/03/Queen-Elizabeth-High-School-Full-building-shot.jpg"> <!-- target not used here -->
+          <!-- Additional Shapes to Look up are: polygons with coordinates labeled in clockwise order, starting with the top left-->
+        </map>
+        <p></p></article>
+    </section>
+    <section><br><br><h3>Online tools to assist with creating mapped image coordinates</h3>
+      <article>
+        <p>
+          <ul>
+            <li> Image Map Generator at <a href="https://www.image-map.net/" target="_blank">https://www.image-map.net/</a>
+          </ul>
+
+        </p>
+      </article>
+      <article><p></p></article></section>
+
+  </body>
+
+  <footer>
+    <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
+  </footer>
+
+</html>

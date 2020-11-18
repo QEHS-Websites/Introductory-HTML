@@ -1,0 +1,25 @@
+﻿Consuming Paragraphs
+
+Paragraphs or “readable” text
+Various types of readable text depending on our expectations of “summary” or “narrative”
+(story, lots of ideas all at once)
+Caution: consuming paragraphs is the most difficult
+Hint: Paragraphs are probably the reason it is taught most often, and repeated most often
+
+<p></p>
+
+Planning Idea: Legend for tags and formatting
+•	CSS file formatting
+•	Written into HTML formatting type
+•	Scaffold what a good DOC looks like
+•	Create templates or DOC types
+•	“Code formatting requirements beforehand”
+
+Planning Idea – evaluate if this will work
+•	Ask for paragraph from Stacia
+•	Give her an example
+•	Have students highlight out ordered and unordered lists, outline headings, and other summary ideas
+•	Have students find images and other information (like word definitions)
+	and can be created into a website
+	(Google Word Definitions, Wikipedia, other websites, personal experiences loaded up, images, other web pages)
+•	This should help easing the comprehension of the paragraph
