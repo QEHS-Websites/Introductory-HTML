@@ -4,6 +4,12 @@ Introductory HTML with inline CSS
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="">Click Here when URL Added</a>
 - Introduction to HTML5 using GitHub Markdown and Annotating Project Notes, <a href="">Click Here when URL Added</a>
+- Review Website Mentoring for Simple `Who Am I` Template (Elementary Aged Children)
+  - See: https://github.com/MercersKitchen/Website-Mentoring
+  - See Dev Outreach Files (Must be compiled locally): https://github.com/Dev-Outreach/Introduction-Static-HTML
+  - Review Code to Enable JavaScript enabling in Browser (JavaScript is Intermediate CS but learning about default settings in Browser is Introductory CS)
+  - Code should be part of Boilerplate
+  - Code can also illustrate security issues for Browser automatically running JavaScript
 - HTML with inline CSS Boilerplate Checklist and Template Creation, <a href="">Click Here when URL Added</a>
 - Reference Repositories, <a href="https://github.com/QEHS-Websites/Template-Websites">Click Here when URL Added</a>
   - Template Single Page Website: See File and Folder Structure with included `ReadMe` Files (`.md` illustrated for GitHub Markdown, `.txt` also possible)
@@ -11,7 +17,7 @@ Table of Contents
 - Learning to Write a Website, by Writing a Simple Website
   - See Public Facing Exemplar: TBA (https://github.com/QEHS-Websites/LearningHTML.github.io)
   - Hosted at (for online Synchronous Learning, instead of Mr. Mercer hosting locally with classroom-based Lesson): https://qehs-websites.github.io/LearningHTML.github.io/
-  
+
 **JS Fiddle**: can be used to prototype all sections of a Webpage in a Chromebook
 
 # Introduction to the Internet and Web Documents (with small actives to illustrate)
