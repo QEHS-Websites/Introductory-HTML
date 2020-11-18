@@ -4,7 +4,14 @@ Introductory HTML with inline CSS
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="">Click Here when URL Added</a>
 - Introduction to HTML5 using GitHub Markdown and Annotating Project Notes, <a href="">Click Here when URL Added</a>
-
+- HTML with inline CSS Boilerplate Checklist and Template Creation, <a href="">Click Here when URL Added</a>
+- Reference Repositories, <a href="https://github.com/QEHS-Websites/Template-Websites">Click Here when URL Added</a>
+  - Template Single Page Website: See File and Folder Structure with included `ReadMe` Files (`.md` illustrated for GitHub Markdown, `.txt` also possible)
+  - Template Multipage Website: TBA
+- Learning to Write a Website, by Writing a Simple Website
+  - See Public Facing Exemplar: TBA (https://github.com/QEHS-Websites/LearningHTML.github.io)
+  - Hosted at (for online Synchronous Learning, instead of Mr. Mercer hosting locally with classroom-based Lesson): https://qehs-websites.github.io/LearningHTML.github.io/
+  
 **JS Fiddle**: can be used to prototype all sections of a Webpage in a Chromebook
 
 # Introduction to the Internet and Web Documents (with small actives to illustrate)
@@ -91,6 +98,10 @@ Modern Examples of Websites, not promotional or business-style, worth researchin
 
 # HTML with inline CSS Boilerplate Checklist and Template Creation
 
+**Used with "Learning HTML through Website Creation" & "Main Project Creation"**
+- Below are minimum expectations
+- Full Expectations include some creativity using `HTML Summary.txt` Document
+
 Minimum Checklist (see <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">for full checklist</a>)
 - Note: [] White Space: all indents are autoformatted by WYSIWYG or three-spaces (standard from W3 Consortium)
 - h1-h6 tags
@@ -126,7 +137,6 @@ Checklist: adding Image HTML Tags (See Lessons on Building <a href="">Image HTML
 
 Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a href="">full HTML examples</a>
 - Include Ordered (numbered) and Unordered (dots) lists
-
 
 ---
 
