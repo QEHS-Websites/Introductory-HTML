@@ -798,6 +798,7 @@ Online image tools
 - https://imageresizer.com/
 
 - use inline width property set at 100%
+- if trying to fit image into column, use max-width percentage, not window size 
 - height becomes automatic
 ```html
 <img src="img_girl.jpg" style="width:100%;">
