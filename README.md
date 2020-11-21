@@ -22,6 +22,12 @@ Click Here</a>
 Click Here</a>
 - Starting with WYSIWIG Boilerplate, develop Boilerplate for childPages / Templage.html, <a href="https://github.com/QEHS-Websites/Introductory-HTML#atom-html-boilerplate-to-introductory-cs-boilerplate-in-a-child-template-file">
 Click Here</a>
+- Text Data Entry, see below and additional "To Include Ideas"
+  - Headings and Paragraphs Tags
+  - Sub Script and SuperScript Tags
+- Image Lesson and See Below
+
+Additional Ideas
 - Reference Repositories, <a href="https://github.com/QEHS-Websites/Template-Websites">Click Here</a>
   - Template Single Page Website: See File and Folder Structure with included `ReadMe` Files (`.md` illustrated for GitHub Markdown, `.txt` also possible)
   - Template Multipage Website: TBA
@@ -388,7 +394,7 @@ Example Videos using Accessibility: https://youtu.be/OGwKOxh5hqQ?t=5m28s
 
 ---
 
-# To Include:
+# To Include: To Delete?
 
 Creating Splash Page and linking to different childPages with a tags and `href=""` with options
 - Creating Organized and unorganized lists (i.e. on Splash Page as summary)
@@ -407,7 +413,7 @@ Note: Review Chrome's inspection elements to learn about how a webpage is laid o
 
 ---
 
-# To Include:
+# To Include: To Delete?
 
 META Data - Prepares the body for searching and rendering in browser
 - Google Search to see use of UTF-8
@@ -425,7 +431,7 @@ HTML Semantic Tags & Boiler Plate: Footer
 
 ---
 
-# To Include:
+# To Include: To Delete?
 
 HTML Semantic Tags & Boiler Plate: Body
 - Note: auto formatting tags (preset in browser, user controlled)
@@ -519,5 +525,303 @@ Also check out Khan Academy
 
 See https://www.w3schools.com/css/css3_flexbox.asp
 - best introductory head and inline CSS after DIV finished
+
+See https://www.w3schools.com/html/html_responsive.asp
+- Combine with Flexbox, see the examples at the end
+- Introduction: Webpage so students can resize the window and see elements change
+- Reviewing the viewport window as a meta tag
+
+Also see full Reponsive Web Design Tutorial
+- https://www.w3schools.com/css/css_rwd_intro.asp
+
+Simple Two Column Example:
+- See: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_webpage
+- Or See: Responsive 2-Column Example Folder
+
+Simple Three Column Examples
+- See Responsive 3-Column Example Folder
+
+Typical 12-Column Example
+- See https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Chania</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3">
+  <ul>
+    <li>The Flight</li>
+    <li>The City</li>
+    <li>The Island</li>
+    <li>The Food</li>
+  </ul>
+</div>
+
+<div class="col-9">
+  <h1>The City</h1>
+  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</div>
+
+</body>
+</html>
+
+```
+
+- Media Queries
+- You can see the size of a chrome window in the top right corner for a moment, resize, then toggle between the two screens to get the minimum media width you want before stacking
+
+- Example 1
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Media Queries</h2>
+<p>Resize the browser window.</p>
+
+<p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+<div class="left">
+  <p>Left Menu</p>
+</div>
+
+<div class="main">
+  <p>Main Content</p>
+</div>
+
+<div class="right">
+  <p>Right Content</p>
+</div>
+
+</body>
+</html>
+```
+
+- Example 2
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  <h1>Hello World</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+  </div>
+
+  <div class="main">
+    <h2>Lorum Ipsum</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </div>
+</div>
+
+<div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
+</html>
+
+```
+
+
+---
+
+# To Include: Text Resizing according to Responsive Design
+
+Resizing Text
+- Example: 
+```html
+<h1 style="font-size:10vw">Hello World</h1>
+```
+
+- Another example using Hello World Text or the Website for H-tags and P-Tags
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 style="font-size:10vw;">Responsive Text</h1>
+
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
+
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
+
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+
+</body>
+</html>
+```
+
+---
+
+# To Include: Image Resizing according to Responsive Design
+
+Online image tools
+- https://imageresizer.com/
+
+- use inline width property set at 100%
+- height becomes automatic
+```html
+<img src="img_girl.jpg" style="width:100%;">
+
+```
+- if max-width is set to 100%, image will scale down but never up and be larger than original size
+- Therefore, will have weird white space in rendering
+```html
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
+
+```
+
+- Advanced, Showing different images depending on media queries
+- Illustrates picture and img together
+- See https://www.w3schools.com/tags/tag_picture.asp
+```html
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+
+```
+
 
 ---
