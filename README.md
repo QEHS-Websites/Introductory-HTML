@@ -7,16 +7,21 @@ See https://github.com/QEHS-Websites/LearningHTML.github.io
 **Purpose:** build simple webpages that are linked to each other, rendered in a browser
 
 Table of Contents
-- Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="">Click Here when URL Added</a>
-- Introduction to HTML5 using GitHub Markdown and Annotating Project Notes, <a href="">Click Here when URL Added</a>
+- Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="https://github.com/QEHS-Websites/Introductory-HTML#introduction-to-the-internet-and-web-documents-with-small-actives-to-illustrate">
+Click Here</a>
+- Introduction to HTML5 using GitHub Markdown and Annotating Project Notes, <a href="https://github.com/QEHS-Websites/Introductory-HTML#introduction-to-html5-using-github-markdown">
+Click Here</a>
 - Review Website Mentoring for Simple `Who Am I` Template (Elementary Aged Children)
   - See: https://github.com/MercersKitchen/Website-Mentoring
   - See Dev Outreach Files (Must be compiled locally): https://github.com/Dev-Outreach/Introduction-Static-HTML
   - Review Code to Enable JavaScript enabling in Browser (JavaScript is Intermediate CS but learning about default settings in Browser is Introductory CS)
   - Code should be part of Boilerplate
   - Code can also illustrate security issues for Browser automatically running JavaScript
-- HTML with inline CSS Boilerplate Checklist and Template Creation, <a href="">Click Here when URL Added</a>
-- Reference Repositories, <a href="https://github.com/QEHS-Websites/Template-Websites">Click Here when URL Added</a>
+- HTML with inline CSS Boilerplate Checklist and Template Creation, <a href="https://github.com/QEHS-Websites/Introductory-HTML#html-with-inline-css-boilerplate-checklist-and-template-creation">
+Click Here</a>
+- Starting with WYSIWIG Boilerplate, develop Boilerplate for childPages / Templage.html, <a href="">Click Here when URL Added</a>
+
+- Reference Repositories, <a href="https://github.com/QEHS-Websites/Template-Websites">Click Here</a>
   - Template Single Page Website: See File and Folder Structure with included `ReadMe` Files (`.md` illustrated for GitHub Markdown, `.txt` also possible)
   - Template Multipage Website: TBA
 - Learning to Write a Website, by Writing a Simple Website
@@ -151,7 +156,7 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 
 ---
 
-# To Include: Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
+# Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
 - HTML Self Learning Notes and References
 - Discuss WYSIWYG (Notepad, Notepad++, Visual Studio Basic, Atom.io, etc.)
 - Discuss typing tags, then text data, then HTML, then inline CSS as needed
