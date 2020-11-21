@@ -19,8 +19,8 @@ Click Here</a>
   - Code can also illustrate security issues for Browser automatically running JavaScript
 - HTML with inline CSS Boilerplate Checklist and Template Creation, <a href="https://github.com/QEHS-Websites/Introductory-HTML#html-with-inline-css-boilerplate-checklist-and-template-creation">
 Click Here</a>
-- Starting with WYSIWIG Boilerplate, develop Boilerplate for childPages / Templage.html, <a href="">Click Here when URL Added</a>
-
+- Starting with WYSIWIG Boilerplate, develop Boilerplate for childPages / Templage.html, <a href="https://github.com/QEHS-Websites/Introductory-HTML#atom-html-boilerplate-to-introductory-cs-boilerplate-in-a-child-template-file">
+Click Here</a>
 - Reference Repositories, <a href="https://github.com/QEHS-Websites/Template-Websites">Click Here</a>
   - Template Single Page Website: See File and Folder Structure with included `ReadMe` Files (`.md` illustrated for GitHub Markdown, `.txt` also possible)
   - Template Multipage Website: TBA
@@ -162,6 +162,13 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 - Discuss typing tags, then text data, then HTML, then inline CSS as needed
 - Discuss White Space as necessary for rendering (sometimes rendering is stopped if White Space not formatted properly)
 
+### W3 Schools Reference Webpages
+- HTML Tags must be included: `<html>, <head>, <body>`
+- See: https://www.w3schools.com/html/default.asp for full HTML Tutorials listing
+- `<head>`, <a href="https://www.w3schools.com/html/html_head.asp">Click Here for W3 Schools Reference</a>
+- `<body>`, <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Click Here for W3 Schools Reference</a>
+- Special Symbols, <a href="https://www.w3schools.com/html/html_symbols.asp">Click Here for W3 Schools Reference</a>
+
 ### Beginning an HTML Doc
 ```html
 <!DOCTYPE html>
@@ -184,18 +191,7 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
     <meta name="description" content="Learning HTML by building a simple Website">
     <meta name="keywords" content="boilerplate, starter code, HTML, learning">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
-
-    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-
-    <!-- Other meta attributes to be aware of -->
-
-    <!-- meta http-equiv="refresh" content="30"-->
-    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-    <!-- Use this when refreshes are needed -->
-
-    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-    <!-- Already specified in the charset above-->
+    <!-- viewport is meant for Responsive Web Design, which we will look at later -->
   </head>
 ```
 
@@ -261,13 +257,7 @@ See Flexbox Option: https://www.w3schools.com/css/css3_flexbox.asp
 
 ---
 
-HTML Lessons for the following HTML Features
-   - HTML Tags must be included: `<html>, <head>, <body>`
-   - `<head>`, <a href="https://www.w3schools.com/html/html_head.asp">Click Here for W3 Schools Reference</a>
-   - `<body>`
-     - <a href="https://github.com/MercersKitchen/CS10#html-layout-elements">Click Here for HTML Layout Notes in this document</a>
-
-## HEAD Notes
+### Additional HEAD Notes
 
 General List of all HTML `<head>`
 - `<title>`: title in tab, when added to favorites, displays title in search engine when website is hosted live (i.e. GitHub Hosting)
@@ -316,7 +306,7 @@ An Exemplar `<head>` with `<meta>` tags
 
 ---
 
-## Body Notes and Reference
+### Additional Body Notes and Reference
 - See <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">full HTML Reference<>
 - See: https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
 
@@ -375,7 +365,7 @@ Ideas to Explore Here, DOCs to Create
 
 ---
 
-# To Include: Setting up the Chrome Browser for HTML & CSS Validation
+# Enrichment: Setting up the Chrome Browser for HTML & CSS Validation
 
 - HTML Validation
   - In Workona, point a TAB to https://validator.w3.org/
