@@ -255,14 +255,17 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 </footer>
 ```
 
-### Enrichment Topics
+### Enrichment Topics, To be included in future lessons
 Google Image Search, "HTML Semantic Tags", <a href="https://www.google.com/search?q=HTML+Semantic+Tags&safe=strict&rlz=1C1GCEU_en&tbm=isch&source=iu&ictx=1&fir=nFVcRKSgo_LGQM%252C-s9bmbuSdmptrM%252C%252Fm%252F080fdhf&vet=1&usg=AI4_-kRvQn7QZPzDHTuv5Gl1zvD8lFzIJA&sa=X&ved=2ahUKEwiwqJ3vzZHtAhXJvJ4KHVUuAyoQ_B16BAgTEAM#imgrc=nFVcRKSgo_LGQM">
 Example from 20201120</a>
 
 Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
+- Must use Resonsive: https://www.w3schools.com/html/html_responsive.asp
+  - Also see the W3 Schools Tutorial: https://www.w3schools.com/css/css_rwd_intro.asp
+- Must use the box-sizing property to border-box (padding and border are inside total with and height of all elements)
+  - images are easier to adjust
+  - text is a little more difficult to vw units
 
-See Flexbox Option: https://www.w3schools.com/css/css3_flexbox.asp
-- Matches most closely with multiple devices and ease into CSS
 
 ---
 
@@ -521,17 +524,9 @@ Also check out Khan Academy
 
 ---
 
-# To Include: Flexbox ideas
+# To Include: Responsive Design ideas and full tutorial
 
-See https://www.w3schools.com/css/css3_flexbox.asp
-- best introductory head and inline CSS after DIV finished
-
-See https://www.w3schools.com/html/html_responsive.asp
-- Combine with Flexbox, see the examples at the end
-- Introduction: Webpage so students can resize the window and see elements change
-- Reviewing the viewport window as a meta tag
-
-Also see full Reponsive Web Design Tutorial
+Also see full Responsive Web Design Tutorial
 - https://www.w3schools.com/css/css_rwd_intro.asp
 
 Simple Two Column Example:
@@ -541,7 +536,7 @@ Simple Two Column Example:
 Simple Three Column Examples
 - See Responsive 3-Column Example Folder
 
-Typical 12-Column Example
+Typical 12-Column Example, is getting a little too much for introductory CS, especially with small screens
 - See https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols
 
 ```html
@@ -798,7 +793,7 @@ Online image tools
 - https://imageresizer.com/
 
 - use inline width property set at 100%
-- if trying to fit image into column, use max-width percentage, not window size 
+- if trying to fit image into column, use max-width percentage, not window size
 - height becomes automatic
 ```html
 <img src="img_girl.jpg" style="width:100%;">
