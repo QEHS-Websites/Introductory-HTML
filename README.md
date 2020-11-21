@@ -4,6 +4,8 @@ Introductory HTML with inline CSS
 See https://github.com/QEHS-Websites/LearningHTML.github.io
 - and see public-facing version: https://qehs-websites.github.io/LearningHTML.github.io/
 
+**Purpose:** build simple webpages that are linked to each other, rendered in a browser
+
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="">Click Here when URL Added</a>
 - Introduction to HTML5 using GitHub Markdown and Annotating Project Notes, <a href="">Click Here when URL Added</a>
@@ -151,6 +153,9 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 
 # To Include: Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
 - HTML Self Learning Notes and References
+- Discuss WYSIWYG (Notepad, Notepad++, Visual Studio Basic, Atom.io, etc.)
+- Discuss typing tags, then text data, then HTML, then inline CSS as needed
+- Discuss White Space as necessary for rendering (sometimes rendering is stopped if White Space not formatted properly)
 
 ### Beginning an HTML Doc
 ```html
@@ -385,18 +390,135 @@ Example Videos using Accessibility: https://youtu.be/OGwKOxh5hqQ?t=5m28s
 
 ---
 
+# To Include:
+
+Creating Splash Page and linking to different childPages with a tags and `href=""` with options
+- Creating Organized and unorganized lists (i.e. on Splash Page as summary)
+- Another Page (see exemplar): Comparing Heading and Paragraph TagsH1 - H7, combining with Semantic Tags
+- Another Page (see exemplar): Sub and Super Script Tags
+- Another Page, formatting example (see exemplar): Delete this DIVs, HTML_BoilerplateDIV_v1, HTML_BoilerplateDIV_v2
+- Image Lessons
+  - See example: Image.html
+  - See Image Lessons in childPages Exemplars
+  - See Images Folder for other examples
+- See HTML Summary, what has not been made into example pages, what needs to be
+
+Note: rewrite current website to learn about webpages
+
+Note: Review Chrome's inspection elements to learn about how a webpage is laid out
+
+---
 
 # To Include:
+
+META Data - Prepares the body for searching and rendering in browser
+- Google Search to see use of UTF-8
+- Other Meta Data used in HEAD
+- Web Browsers: https://en.wikipedia.org/wiki/Web_browser
+- Browsers need to read what language is declared first
+- Different browser versions will run different versions of languages differently
+- QE Runs the latest versions of all
+- Other countries do not - web developers must test website versions on a variety of monitor sizes, browsers, language versions
+
+HTML Semantic Tags & Boiler Plate: Footer
+- Quote with Hyperlink opening new Tab
+- Blockquote URL Reference with Date Accessed
 
 
 ---
 
 # To Include:
 
+HTML Semantic Tags & Boiler Plate: Body
+- Note: auto formatting tags (preset in browser, user controlled)
+- **Learn Pieces of HTML Sematic Tags and boilerplate while learning auto formatting**
+- Learn File Navigation in index.html with hyperlinks to childPages
+- Visualize HTML Layout with DIVs
+- Auto Formatting Example Pages
+  - Headings vs. Paragraph DOC (includes <br>)
+    - H1 - H7, p
+    - Includes <br>
+  - Ordered and Unordered Lists (simple formatting & more HTML Options)
+  - TBA
+
+Review all pages and visualize where the HTML Sections are using DIVs and inline CSS
+
+#### Ideas
+Where does inline CSS get added in this list
+
+Redo Previous auto formatted DOCs with inline CSS (inline rewrites HTML)
+Note: CSS Section and File Overwrite Options
+
+- Paragraph formatting: copy and past for Essay Project
+- Essay's are the most difficult to read ... probably taught the most in all subjects
+- Using hyperlinks in paragraphs: a-tag with href attribute
+
+- Simple Ordered and Unordered List Page
+- Using More attributes page
+
+- Hyperlinks & Images-Intro
+- img-tag and src attribute
+- img-tag with altattributre (visually imparted and website code, semantic, is read to person to "see" website)
+- Advanced Images
+
+- Introductory Example for Essay Planning, Example #2
+
+- Intermediate Business Page Website, after CSS Lessons, Developing a Splash Page: See Example 1
+
+- Construct Essay Project
+- Refer to HTML Summary
+- Create Interactive Essay Project
 
 ---
 
-# To Include:
+# To Include
+
+
+---
+
+Concepts
+
+Image Expectations:
+Creating Image Tags
+- File downloaded and optimized for cropping and memory size using online tools
+- URL blockquote-cited with date accessed
+- File commented with original dimensions
+- <img> width and height attributes scaled for aspect ratio
+- Any mapped images have style width and height inside img tag
+
+Current Ideas
+- Creating a Repository: new repository
+- Creating Pathways and Files:
+- index.html, Images, Videos, Media
+- Simple Text and Hyperlinks: quote in Footer
+- Adding External Hyperlinks, using Browser TAB navigation
+
+Lessons Descriptions to Include
+- Text copy lessons, into HTML Layout
+  - Create completed Essay Project, text copy DOC, with hint (make more sections and articles than HTML Layout)
+- Hyperlink Lessons
+- Image Lessons
+
+Create DOC to see H1 - H6 progression and paragraph progression
+- compare to DIV and br (automatic formatting using browser's presets)
+
+Add CSS Borders to "see" HTML Divisions in rendered page's HTML Layout
+
+Use boarder around image divs
+- Moving DIVs with CSS (Intermediate)
+
+See example about JavaScript opening all links in external tabs
+
+See example about JavaScript button showing more information
+
+Add Code Academy Resources
+- HTML, CSS
+- JavaScript
+- Build a Website, Build an Interactive Website
+
+Also check out Khan Academy
+
+---
 
 
 ---
