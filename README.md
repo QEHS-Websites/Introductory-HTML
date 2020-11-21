@@ -4,7 +4,8 @@ Introductory HTML with inline CSS
 See https://github.com/QEHS-Websites/LearningHTML.github.io
 - and see public-facing version: https://qehs-websites.github.io/LearningHTML.github.io/
 
-**Purpose:** build simple webpages that are linked to each other, rendered in a browser
+**Purpose:** build simple webpages that are linked to each other, rendered in a browser, using HTML
+- Full Listing of HTML Tags: https://www.w3schools.com/tags/default.asp
 
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="https://github.com/QEHS-Websites/Introductory-HTML#introduction-to-the-internet-and-web-documents-with-small-actives-to-illustrate">
