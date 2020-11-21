@@ -27,6 +27,8 @@ Click Here</a>
 - Learning to Write a Website, by Writing a Simple Website
   - See Public Facing Exemplar: TBA (https://github.com/QEHS-Websites/LearningHTML.github.io)
   - Hosted at (for online Synchronous Learning, instead of Mr. Mercer hosting locally with classroom-based Lesson): https://qehs-websites.github.io/LearningHTML.github.io/
+- Enrichment: <a href="https://github.com/QEHS-Websites/Introductory-HTML#enrichment-setting-up-the-chrome-browser-for-html--css-validation">
+Setting up Validation for HTML and CSS in Chrome</a>
 
 **JS Fiddle**: can be used to prototype all sections of a Webpage in a Chromebook
 
