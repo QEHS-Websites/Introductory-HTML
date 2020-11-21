@@ -473,9 +473,6 @@ Note: CSS Section and File Overwrite Options
 
 # To Include
 
-
----
-
 Concepts
 
 Image Expectations:
@@ -520,10 +517,9 @@ Also check out Khan Academy
 
 ---
 
+# To Include: Flexbox ideas
 
----
-
-# To Include:
-
+See https://www.w3schools.com/css/css3_flexbox.asp
+- best introductory head and inline CSS after DIV finished
 
 ---
