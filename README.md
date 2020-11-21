@@ -1,6 +1,9 @@
 # Introductory-HTML
 Introductory HTML with inline CSS
 
+See https://github.com/QEHS-Websites/LearningHTML.github.io
+- and see public-facing version: https://qehs-websites.github.io/LearningHTML.github.io/
+
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="">Click Here when URL Added</a>
 - Introduction to HTML5 using GitHub Markdown and Annotating Project Notes, <a href="">Click Here when URL Added</a>
@@ -146,7 +149,107 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 
 ---
 
-# To Include: HTML Self Learning Notes and References
+# To Include: Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
+- HTML Self Learning Notes and References
+
+### Beginning an HTML Doc
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+</html>
+```
+
+### Common Head Tags with inline CSS
+
+```html
+  <head>
+
+    <!-- Used by keyboard -->
+    <meta charset="utf-8">
+
+    <title>Learning HTML</title>
+
+    <!-- Used by Browser or Google Search-->
+    <meta name="author" content="Mark Mercer">
+    <meta name="description" content="Learning HTML by building a simple Website">
+    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
+
+    <!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
+
+    <!-- Other meta attributes to be aware of -->
+
+    <!-- meta http-equiv="refresh" content="30"-->
+    <!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
+    <!-- Use this when refreshes are needed -->
+
+    <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
+    <!-- Already specified in the charset above-->
+  </head>
+```
+
+### Common Semantic Body Tags
+
+``` html
+<body>
+  <header><h1>Header Title</h1></header>
+    <nav><h1>Navigation</h1></nav>
+    <aside><p>This is the aside space.</p></aside>
+    <section>
+      <h3>Section 1</h3>
+      <article>
+        <p>This is article 1 in section 1.</p>
+      </article>
+      <article>
+        <p>This is article 2 in section 1.</p>
+      </article>
+    </section>
+    <section>
+      <h3>Section 2</h3>
+      <article>
+        <p>This is article 1 in section 2.</p>
+      </article>
+      <article>
+        <p>This is article 2 in section 2.</p>
+      </article>
+    </section>
+</body>
+```
+
+### An Example Footer, including
+- HTML Tags
+- Blockquote with single line comment for date accessed
+- Text Hyperlink with forced navigation experience (opening a new tab)
+  - Also viewing other choices ATOM.io offers with autocomplete
+- Example Special Symbol
+
+``` html
+<footer>
+  <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
+    <!-- Date Accessed 20201120-->
+  </blockquote>
+  <p>
+    <strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
+    <em><a href="https://www.brainyquote.com/quotes/mitch_kapor_163583" target="_blank">
+       - Mitch Kapor</a>
+    </em>
+  </p>
+  <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
+
+</footer>
+```
+
+### Enrichment Topics
+Google Image Search, "HTML Semantic Tags", <a href="https://www.google.com/search?q=HTML+Semantic+Tags&safe=strict&rlz=1C1GCEU_en&tbm=isch&source=iu&ictx=1&fir=nFVcRKSgo_LGQM%252C-s9bmbuSdmptrM%252C%252Fm%252F080fdhf&vet=1&usg=AI4_-kRvQn7QZPzDHTuv5Gl1zvD8lFzIJA&sa=X&ved=2ahUKEwiwqJ3vzZHtAhXJvJ4KHVUuAyoQ_B16BAgTEAM#imgrc=nFVcRKSgo_LGQM">
+Example from 20201120</a>
+
+Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
+
+See Flexbox Option: https://www.w3schools.com/css/css3_flexbox.asp
+- Matches most closely with multiple devices and ease into CSS
+
+---
 
 HTML Lessons for the following HTML Features
    - HTML Tags must be included: `<html>, <head>, <body>`
