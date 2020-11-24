@@ -416,6 +416,13 @@ Online image tools
 
 ---
 
+# Enrichment: Responsive Design ideas for Imbedding Videos
+
+Imbedding Videos: https://www.w3schools.com/css/css_rwd_videos.asp
+
+
+---
+
 # Enrichment: Responsive Design ideas and full tutorial
 
 Also see full Responsive Web Design Tutorial
