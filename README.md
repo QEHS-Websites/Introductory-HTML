@@ -22,9 +22,8 @@ Click Here</a>
 Click Here</a>
 - Starting with WYSIWIG Boilerplate, develop Boilerplate for childPages / Templage.html, <a href="https://github.com/QEHS-Websites/Introductory-HTML#atom-html-boilerplate-to-introductory-cs-boilerplate-in-a-child-template-file">
 Click Here</a>
-- Text Data Entry, see below and additional "To Include Ideas"
-  - Headings and Paragraphs Tags
-  - Sub Script and SuperScript Tags
+- Text Data Entry, see below
+- Formatting text data with Semantic, H1-H6, & P-tags, with inline Responsive CSS
 - Image Lesson and See Below
 
 Additional Ideas
@@ -255,20 +254,6 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 </footer>
 ```
 
-### Enrichment Topics, To be included in future lessons
-Google Image Search, "HTML Semantic Tags", <a href="https://www.google.com/search?q=HTML+Semantic+Tags&safe=strict&rlz=1C1GCEU_en&tbm=isch&source=iu&ictx=1&fir=nFVcRKSgo_LGQM%252C-s9bmbuSdmptrM%252C%252Fm%252F080fdhf&vet=1&usg=AI4_-kRvQn7QZPzDHTuv5Gl1zvD8lFzIJA&sa=X&ved=2ahUKEwiwqJ3vzZHtAhXJvJ4KHVUuAyoQ_B16BAgTEAM#imgrc=nFVcRKSgo_LGQM">
-Example from 20201120</a>
-
-Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
-- Must use Resonsive: https://www.w3schools.com/html/html_responsive.asp
-  - Also see the W3 Schools Tutorial: https://www.w3schools.com/css/css_rwd_intro.asp
-- Must use the box-sizing property to border-box (padding and border are inside total with and height of all elements)
-  - images are easier to adjust
-  - text is a little more difficult to vw units
-
-
----
-
 ### Additional HEAD Notes
 
 General List of all HTML `<head>`
@@ -302,18 +287,6 @@ An Exemplar `<head>` with `<meta>` tags
 <meta name="description" content="Example boilerplate for Who am I Project">
 <meta name="keywords" content="boilerplate, starter code">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Content give value for name or http-equiv attribute, text entry in string or array string -->
-
-<!-- meta http-equiv="default-style" content=""--> <!-- content matches css link exactly-->
-
-<!-- Other meta attributes to be aware of -->
-
-<!-- meta http-equiv="refresh" content="30"-->
-<!-- Content forces a Internet Request to refresh webpage every "time value in seconds" -->
-<!-- Use this when refreshes are needed -->
-
-<!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
-<!-- Already specified in the charset above-->
 ```
 
 ---
@@ -354,177 +327,96 @@ https://www.w3schools.com/html/html_layout.asp
   <footer>&copy Mark Mercer, powered by MercersKitchen (GitHub)</footer>
 ```
 
-### Notes and Reference
+---
 
-**See HTML Lessons Website**: for illustration of HTML Tags
-- Also includes inline CSS
+# Text Resizing according to Responsive Design
 
 ---
 
-**Note:** Students must create another GitHub Lesson's Repository
-- Information here will be used for Assessment-style Hackathons
-- Chosen Readings are Grade 10 Reading Level Equivalent from the English Department
-
-Ideas to Explore Here, DOCs to Create
-  - Compare
-    - Bolding: ```<strong></strong>``` (or ```<b></b>```)
-    - Italics: ```<em></em>``` (or ```<i></i>```)
-    - Superscript: ```<sup></sup>```
-    - Subscript: ```<sub></sub>```
-  - Find default settings in Chrome ("where are these located"), change these if necessary
-- Simple DIV Layout and HEAD-Section CSS Attribute Definitions
-  - elated to HTML Tags and how to see those, for example <article>
+Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
+- Must use Responsive: https://www.w3schools.com/html/html_responsive.asp
+  - Also see the W3 Schools Tutorial: https://www.w3schools.com/css/css_rwd_intro.asp
+- Must use the box-sizing property to border-box (padding and border are inside total with and height of all elements)
+  - images are easier to adjust
+  - text is a little more difficult to vw units
 
 ---
 
-# Enrichment: Setting up the Chrome Browser for HTML & CSS Validation
+Resizing Text
+- Example: 
+```html
+<h1 style="font-size:10vw">Hello World</h1>
+```
 
-- HTML Validation
-  - In Workona, point a TAB to https://validator.w3.org/
-      - Able to validate hosted and local documents
-  - See HTML Markup Validation: https://validator.w3.org/#validate_by_upload
-- CSS Validation
-  - In Workona, point a TAB to https://jigsaw.w3.org/css-validator/validator.html.en
-  - Able to validate hosted and local documents
-  - See CSS Markup Validation: https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_upload
-- Accessibility Testing as a Chrome Developer Tool
-  - Accessibility Validation: Chrome Web Store / Extensions / aXe by Deque Systems (Deque University)
-  - In the Chrome Store, search for "aXe, Deque Systems" and add it to Chrome
-  - In Chrome/Extensions Settings, allow aXe to access URLs
-  - Able to find this in Developer Tools and the Analyze Button
+- Another example using Hello World Text or the Website for H-tags and P-Tags
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-Example Videos using Accessibility: https://youtu.be/OGwKOxh5hqQ?t=5m28s
+<h1 style="font-size:10vw;">Responsive Text</h1>
 
----
+<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
 
-# To Include: To Delete?
+<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
 
-Creating Splash Page and linking to different childPages with a tags and `href=""` with options
-- Creating Organized and unorganized lists (i.e. on Splash Page as summary)
-- Another Page (see exemplar): Comparing Heading and Paragraph TagsH1 - H7, combining with Semantic Tags
-- Another Page (see exemplar): Sub and Super Script Tags
-- Another Page, formatting example (see exemplar): Delete this DIVs, HTML_BoilerplateDIV_v1, HTML_BoilerplateDIV_v2
-- Image Lessons
-  - See example: Image.html
-  - See Image Lessons in childPages Exemplars
-  - See Images Folder for other examples
-- See HTML Summary, what has not been made into example pages, what needs to be
+<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
 
-Note: rewrite current website to learn about webpages
-
-Note: Review Chrome's inspection elements to learn about how a webpage is laid out
+</body>
+</html>
+```
 
 ---
 
-# To Include: To Delete?
-
-META Data - Prepares the body for searching and rendering in browser
-- Google Search to see use of UTF-8
-- Other Meta Data used in HEAD
-- Web Browsers: https://en.wikipedia.org/wiki/Web_browser
-- Browsers need to read what language is declared first
-- Different browser versions will run different versions of languages differently
-- QE Runs the latest versions of all
-- Other countries do not - web developers must test website versions on a variety of monitor sizes, browsers, language versions
-
-HTML Semantic Tags & Boiler Plate: Footer
-- Quote with Hyperlink opening new Tab
-- Blockquote URL Reference with Date Accessed
-
+# Image Resizing according to Responsive Design
 
 ---
 
-# To Include: To Delete?
-
-HTML Semantic Tags & Boiler Plate: Body
-- Note: auto formatting tags (preset in browser, user controlled)
-- **Learn Pieces of HTML Sematic Tags and boilerplate while learning auto formatting**
-- Learn File Navigation in index.html with hyperlinks to childPages
-- Visualize HTML Layout with DIVs
-- Auto Formatting Example Pages
-  - Headings vs. Paragraph DOC (includes <br>)
-    - H1 - H7, p
-    - Includes <br>
-  - Ordered and Unordered Lists (simple formatting & more HTML Options)
-  - TBA
-
-Review all pages and visualize where the HTML Sections are using DIVs and inline CSS
-
-#### Ideas
-Where does inline CSS get added in this list
-
-Redo Previous auto formatted DOCs with inline CSS (inline rewrites HTML)
-Note: CSS Section and File Overwrite Options
-
-- Paragraph formatting: copy and past for Essay Project
-- Essay's are the most difficult to read ... probably taught the most in all subjects
-- Using hyperlinks in paragraphs: a-tag with href attribute
-
-- Simple Ordered and Unordered List Page
-- Using More attributes page
-
-- Hyperlinks & Images-Intro
-- img-tag and src attribute
-- img-tag with altattributre (visually imparted and website code, semantic, is read to person to "see" website)
-- Advanced Images
-
-- Introductory Example for Essay Planning, Example #2
-
-- Intermediate Business Page Website, after CSS Lessons, Developing a Splash Page: See Example 1
-
-- Construct Essay Project
-- Refer to HTML Summary
-- Create Interactive Essay Project
+Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
+- Must use Responsive: https://www.w3schools.com/html/html_responsive.asp
+  - Also see the W3 Schools Tutorial: https://www.w3schools.com/css/css_rwd_intro.asp
+- Must use the box-sizing property to border-box (padding and border are inside total with and height of all elements)
+  - images are easier to adjust
+  - text is a little more difficult to vw units
 
 ---
 
-# To Include
+Online image tools
+- https://imageresizer.com/
 
-Concepts
+- use inline width property set at 100%
+- if trying to fit image into column, use max-width percentage, not window size
+- height becomes automatic
+```html
+<img src="img_girl.jpg" style="width:100%;">
 
-Image Expectations:
-Creating Image Tags
-- File downloaded and optimized for cropping and memory size using online tools
-- URL blockquote-cited with date accessed
-- File commented with original dimensions
-- <img> width and height attributes scaled for aspect ratio
-- Any mapped images have style width and height inside img tag
+```
+- if max-width is set to 100%, image will scale down but never up and be larger than original size
+- Therefore, will have weird white space in rendering
+```html
+<img src="img_girl.jpg" style="max-width:100%;height:auto;">
 
-Current Ideas
-- Creating a Repository: new repository
-- Creating Pathways and Files:
-- index.html, Images, Videos, Media
-- Simple Text and Hyperlinks: quote in Footer
-- Adding External Hyperlinks, using Browser TAB navigation
+```
 
-Lessons Descriptions to Include
-- Text copy lessons, into HTML Layout
-  - Create completed Essay Project, text copy DOC, with hint (make more sections and articles than HTML Layout)
-- Hyperlink Lessons
-- Image Lessons
+- Advanced, Showing different images depending on media queries
+- Illustrates picture and img together
+- See https://www.w3schools.com/tags/tag_picture.asp
+```html
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
 
-Create DOC to see H1 - H6 progression and paragraph progression
-- compare to DIV and br (automatic formatting using browser's presets)
-
-Add CSS Borders to "see" HTML Divisions in rendered page's HTML Layout
-
-Use boarder around image divs
-- Moving DIVs with CSS (Intermediate)
-
-See example about JavaScript opening all links in external tabs
-
-See example about JavaScript button showing more information
-
-Add Code Academy Resources
-- HTML, CSS
-- JavaScript
-- Build a Website, Build an Interactive Website
-
-Also check out Khan Academy
+```
 
 ---
 
-# To Include: Responsive Design ideas and full tutorial
+# Enrichment: Responsive Design ideas and full tutorial
 
 Also see full Responsive Web Design Tutorial
 - https://www.w3schools.com/css/css_rwd_intro.asp
@@ -753,71 +645,24 @@ Typical 12-Column Example, is getting a little too much for introductory CS, esp
 
 ```
 
-
 ---
 
-# To Include: Text Resizing according to Responsive Design
+# Enrichment: Setting up the Chrome Browser for HTML & CSS Validation
 
-Resizing Text
-- Example: 
-```html
-<h1 style="font-size:10vw">Hello World</h1>
-```
+- HTML Validation
+  - In Workona, point a TAB to https://validator.w3.org/
+      - Able to validate hosted and local documents
+  - See HTML Markup Validation: https://validator.w3.org/#validate_by_upload
+- CSS Validation
+  - In Workona, point a TAB to https://jigsaw.w3.org/css-validator/validator.html.en
+  - Able to validate hosted and local documents
+  - See CSS Markup Validation: https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_upload
+- Accessibility Testing as a Chrome Developer Tool
+  - Accessibility Validation: Chrome Web Store / Extensions / aXe by Deque Systems (Deque University)
+  - In the Chrome Store, search for "aXe, Deque Systems" and add it to Chrome
+  - In Chrome/Extensions Settings, allow aXe to access URLs
+  - Able to find this in Developer Tools and the Analyze Button
 
-- Another example using Hello World Text or the Website for H-tags and P-Tags
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-
-<h1 style="font-size:10vw;">Responsive Text</h1>
-
-<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
-
-<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
-
-<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
-
-</body>
-</html>
-```
-
----
-
-# To Include: Image Resizing according to Responsive Design
-
-Online image tools
-- https://imageresizer.com/
-
-- use inline width property set at 100%
-- if trying to fit image into column, use max-width percentage, not window size
-- height becomes automatic
-```html
-<img src="img_girl.jpg" style="width:100%;">
-
-```
-- if max-width is set to 100%, image will scale down but never up and be larger than original size
-- Therefore, will have weird white space in rendering
-```html
-<img src="img_girl.jpg" style="max-width:100%;height:auto;">
-
-```
-
-- Advanced, Showing different images depending on media queries
-- Illustrates picture and img together
-- See https://www.w3schools.com/tags/tag_picture.asp
-```html
-<picture>
-  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-  <source srcset="flowers.jpg">
-  <img src="img_smallflower.jpg" alt="Flowers">
-</picture>
-
-```
-
+Example Videos using Accessibility: https://youtu.be/OGwKOxh5hqQ?t=5m28s
 
 ---
