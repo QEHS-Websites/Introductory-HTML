@@ -129,7 +129,9 @@ Modern Examples of Websites, not promotional or business-style, worth researchin
 Minimum Checklist (see <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">for full checklist</a>)
 - Note: [] White Space: all indents are autoformatted by WYSIWYG or three-spaces (standard from W3 Consortium)
 - h1-h6 tags
-- Paragraph to ```<article><p>```
+- Paragraph Tags
+- Sematic Body Tags
+to ```<article><p>```
 
 Checklist: adding basic inline HTML tags, Click Here for <a href="">Summary</a>, or <a href="">full HTML examples</a>
 - [] Bolding: ```<strong></strong>``` (or ```<b></b>```)

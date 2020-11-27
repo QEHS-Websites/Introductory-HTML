@@ -21,7 +21,7 @@ ul, ol; both with li
 href= �URL�, �File.Extension�, �#ID�, target=�_blank�
 <!-- Absolute and Relative Links -->
 �#ID� could be the top of a page, this is degraded in HTML5
-Example JavaScript:
+Example Simple inline JavaScript Options (requires some research):
 <a href="javascript:alert('Hello World!');">Execute JavaScript</a>
 
 hreflang
@@ -29,6 +29,8 @@ download
 
 img, scr="URL", alt="URL" , title="", style="width:%;height=auto;", �File.Extension"
 Note: consider max-width option
+Note: remember Date Accessed Comment Requirement for online images,
+  with download into Images folder
 Additional Inline formatting options for img
 srcset: defines multiple sizes of the same image allowing browser to select
 	the most appropriate size
