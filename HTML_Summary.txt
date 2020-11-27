@@ -2,6 +2,13 @@ HTML Summary
 - List of HTML tags: self closing and "containing"
 - See https://www.w3schools.com/html/default.asp
 
+Semantic Body Tag Links
+https://www.w3schools.com/html/html5_semantic_elements.asp
+http://html.com/semantic-markup/
+
+Use inline CSS for 3-Column Organization of Semantic Body Tags
+
+Specific HTML Tags illustrated in "Experiment Pages"
 br, !--
 h1, h2, h3, h4, h5, & h6
 p, a, b or strong, i or em
@@ -11,33 +18,29 @@ ul, ol; both with li
 <ol type="1|a|A|i|I"> <!Different numbering styles>
 <ul style="list-style-type:disc|circle|square|none"></ul> <!--Intro to CSS-->
 
-href= “URL”, “File.Extension”, “#ID”, target=“_blank”
+href= ï¿½URLï¿½, ï¿½File.Extensionï¿½, ï¿½#IDï¿½, target=ï¿½_blankï¿½
 <!-- Absolute and Relative Links -->
-“#ID” could be the top of a page, this is degraded in HTML5
-Example JavaScript: 
+ï¿½#IDï¿½ could be the top of a page, this is degraded in HTML5
+Example JavaScript:
 <a href="javascript:alert('Hello World!');">Execute JavaScript</a>
 
 hreflang
 download
 
-img, scr="URL", alt="URL" , title="", style="width:375px;height=211px;", “File.Extension"
-Note: in HTML img is self closing, XHTML must have closing tag
-Inline formatting
-srcset: defines multiple sizes of the same image allowing browser to select 
+img, scr="URL", alt="URL" , title="", style="width:%;height=auto;", ï¿½File.Extension"
+Note: consider max-width option
+Additional Inline formatting options for img
+srcset: defines multiple sizes of the same image allowing browser to select
 	the most appropriate size
 height & width: identifies height and width of an image in CSS pixels
 usemap: specifies a client-side image to be used with the image
 ismap: defines server-side image map, needs mouse coordinates too
-longdesc: defines a URL where more information can be found by the image 
+longdesc: defines a URL where more information can be found by the image
 (does this work?)
 
-More Semantic:
-https://www.w3schools.com/html/html5_semantic_elements.asp
-http://html.com/semantic-markup/
-
-Note: try using picture instead of img
+Note: try using picture with img
 See: https://www.w3schools.com/tags/tag_picture.asp
 
 Research Ideas
-Use W3 Schools, Google “W3 Schools” with line of code
+Use W3 Schools, Google ï¿½W3 Schoolsï¿½ with line of code
 Use Developer Tab when surfing websites to read the code
