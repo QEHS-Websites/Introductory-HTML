@@ -7,6 +7,10 @@ See https://github.com/QEHS-Websites/LearningHTML.github.io
 **Purpose:** build simple webpages that are linked to each other, rendered in a browser, using HTML
 - Full Listing of HTML Tags: https://www.w3schools.com/tags/default.asp
 
+**Note:** Students have the option of local hosting or public hosting
+- Local Hosting: only on one computer, entire Repo must be downloaded and all software must be confirgured same way
+- Public Hosting: see GitHub Pages, <a href="https://github.com/QEHS-Websites/Website-Hosting">Click Here for additional notes</a>
+
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="https://github.com/QEHS-Websites/Introductory-HTML#introduction-to-the-internet-and-web-documents-with-small-actives-to-illustrate">
 Click Here</a>
