@@ -118,6 +118,8 @@ Modern Examples of Websites, not promotional or business-style, worth researchin
 - PWA: Progressive Web Apps, websites that feel like native Android Apps
 - Note: can deploy PWAs through Chrome Extension package (Google This)
 
+<a href="https://github.com/MercersKitchen/Markdown-ReadMe-Documentation">Click Here for Reference Repository by Mr. Mercer</a>
+
 ---
 
 # HTML with inline CSS Boilerplate Checklist and Template Creation
