@@ -11,7 +11,7 @@ Use inline CSS for 3-Column Organization of Semantic Body Tags
 Specific HTML Tags illustrated in "Experiment Pages"
 br, !--
 h1, h2, h3, h4, h5, & h6
-p, a, b or strong, i or em
+p, a, b or strong, i or em, u
 sub, sup
 ul, ol; both with li
 
