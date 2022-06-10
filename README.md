@@ -11,6 +11,8 @@ See https://github.com/QEHS-Websites/LearningHTML.github.io
 - Local Hosting: only on one computer, entire Repo must be downloaded and all software must be confirgured same way
 - Public Hosting: see GitHub Pages, <a href="https://github.com/QEHS-Websites/Website-Hosting">Click Here for additional notes</a>
 
+---
+
 Table of Contents
 - Introduction to the Internet and Web Documents (with small actives to illustrate), <a href="https://github.com/QEHS-Websites/Introductory-HTML#introduction-to-the-internet-and-web-documents-with-small-actives-to-illustrate">
 Click Here</a>
@@ -48,6 +50,8 @@ Setting up Validation for HTML and CSS in Chrome</a>
 
 **Note**: Can be done in any device
 
+<a href="https://github.com/MercersKitchen/Markdown-ReadMe-Documentation">Click Here for Reference Repository by Mr. Mercer</a>
+
 GitHub Markdown, with Additional HTML rendered in GitHub ReadMe.md files.
 - Note, other programs use Markdown for formatting a variety of messages. Markdown is much easier to use if you are used to it or have a "Summary Sheet".
 - "Opens a students world to a new type of formatting."
@@ -58,12 +62,9 @@ Creating Single Page Applications (static or dynamic websites)
 - Using HTML & inline CSS
 - "The front end of project promotion."
 
-Modern Examples of Websites, not promotional or business-style, worth researching and learning how to code
-- Chrome Extensions: HTML5 (often simple JavaScript), make browser do more
-- PWA: Progressive Web Apps, websites that feel like native Android Apps
-- Note: can deploy PWAs through Chrome Extension package (Google This)
-
-<a href="https://github.com/MercersKitchen/Markdown-ReadMe-Documentation">Click Here for Reference Repository by Mr. Mercer</a>
+Current Main Projects 
+- Drawing Program Case Study
+- Music Player Program Case Study
 
 ---
 
@@ -73,49 +74,48 @@ Modern Examples of Websites, not promotional or business-style, worth researchin
 - Below are minimum expectations
 - Full Expectations include some creativity using `HTML Summary.txt` Document
 
-Minimum Checklist (see <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">for full checklist</a>)
-- Note: [] White Space: all indents are autoformatted by WYSIWYG or three-spaces (standard from W3 Consortium)
-- h1-h6 tags
-- Paragraph Tags
-- Sematic Body Tags
-to ```<article><p>```
+Minimum Checklist
+- [x] White Space: all indents are auto-formatted by WYSIWYG or three-spaces (standard from W3 Consortium)
+- [x] h1-h6 tags
+- [x] Paragraph Tags
+- [x] Sematic Body Tags (see index.html)
 
-Checklist: adding basic inline HTML tags, Click Here for <a href="">Summary</a>, or <a href="">full HTML examples</a>
-- [] Bolding: ```<strong></strong>``` (or ```<b></b>```)
-- [] Italics: ```<em></em>``` (or ```<i></i>```)
-- [] Superscript: ```<sup></sup>```
-- [] Subscript: ```<sub></sub>```
+Checklist: adding basic inline HTML tags
+- [x] Bolding: ```<strong></strong>``` (or ```<b></b>```)
+- [x] Italics: ```<em></em>``` (or ```<i></i>```)
+- [x] Superscript: ```<sup></sup>```
+- [x] Subscript: ```<sub></sub>```
 
-Checklist: adding HTML Hyperlinks, Click Here for <a href="">Summary</a>, or <a href="">full HTML examples</a>
-- [] using anchors, minimum code ```<a href=""></a>```
-- [] using Browser Navigation Buttons by including or excluding *Open in a New Tab*, ```target="_blank"```
+Checklist: adding HTML Hyperlinks
+- [x] using anchors, minimum code ```<a href=""></a>```
+- [x] using Browser Navigation Buttons by including or excluding *Open in a New Tab*, ```target="_blank"```
   - Remember, able to add other attributes and styles as needed and researched
-- [] adding whitespace where appropriate, HTML readable and not changing the Browser Rendering
-- [] Commenting Source Webpage with URL, Actual URL and date accessed, with
-  - [] ```<blockquote cite="">```QUOTATION HERE, if used```</blockquote>```
-  - [] ```<!-- Date Accessed 20181011-->```, using International Numbering System for Dates (year, moth, day)
+- [x] adding whitespace where appropriate, HTML readable and not changing the Browser Rendering
+- Commenting Source Webpage with URL, Actual URL and date accessed, with
+  - [x] ```<blockquote cite="">```QUOTATION HERE, if used```</blockquote>```
+  - [x] ```<!-- Date Accessed 20181011-->```, using International Numbering System for Dates (year, moth, day)
   - OPTION: ```<q></q>```, inline quotation tag, however, look this up since some blogs describe different browsers as rendering this differently
 - Example Hyperlinks using Google Search's 'Unique to Self' Search Returns (ensures reader searches what author searched)
-  - [] Word Definition: linked to words or images
-  - [] Image Search
-  - [] Webpage Information, like Wikipedia
+  - [x] Word Definition: linked to words or images
+  - [x] Image Search
+  - [x] Webpage Information, like Wikipedia
 - Note: Hyperlink to Image should open only the server's image file, or downloaded image as alternate with correct path to Images Folder
 
-Checklist: adding Image HTML Tags (See Lessons on Building <a href="">Image HTML4 to HTML5 Tags</a>)
+Checklist: adding Image HTML Tags
 - Types of Images to Include
 - CAUTION: any large images must be resized and cropped with online free tools or Photoshop, etc.
-- [] Sized Image using width-height attributes (able to be overwritten by CSS)
-- [] Sized Image with Hyperlink, using Browser Navigation Buttons
-- [] Mapped Image with various Hyperlinks (and Easter Eggs), using Style-Width-Height Attribute (not overwritten by CSS)
+- [x] Sized Image using width-height attributes (able to be overwritten by CSS)
+- [x] Sized Image with Hyperlink, using Browser Navigation Buttons
+- [x] Mapped Image with various Hyperlinks (and Easter Eggs), using Style-Width-Height Attribute (not overwritten by CSS)
 
-Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a href="">full HTML examples</a>
-- Include Ordered (numbered) and Unordered (dots) lists
+Checklist for Lists, optional in this project
+- [x] Include Ordered (numbered) and Unordered (dots) lists
 
 ---
 
 # Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
 - HTML Self Learning Notes and References
-- Discuss WYSIWYG (Notepad, Notepad++, Visual Studio Basic, Atom.io, etc.)
+- Discuss WYSIWYG (Notepad, Notepad++, Visual Studio Basic, etc.)
 - Discuss typing tags, then text data, then HTML, then inline CSS as needed
 - Discuss White Space as necessary for rendering (sometimes rendering is stopped if White Space not formatted properly)
 
@@ -125,6 +125,9 @@ Checklist for Lists, optional in this project, see <a href="">Summary</a>, or <a
 - `<head>`, <a href="https://www.w3schools.com/html/html_head.asp">Click Here for W3 Schools Reference</a>
 - `<body>`, <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Click Here for W3 Schools Reference</a>
 - Special Symbols, <a href="https://www.w3schools.com/html/html_symbols.asp">Click Here for W3 Schools Reference</a>
+
+### Getting Started 
+Type `html:5` to add boilerplate
 
 ### Beginning an HTML Doc
 ```html
