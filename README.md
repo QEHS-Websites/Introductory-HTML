@@ -99,49 +99,24 @@ Checklist for Lists, optional in this project
 
 ---
 
-# Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
+# Steps in Creating a Website - See https://github.com/QEHS-Websites/LearningHTML.github.io
+
+1. Atom HTML Boilerplate to Introductory CS Boilerplate in a Child Template File
 - HTML Self Learning Notes and References
 - Discuss WYSIWYG (Notepad, Notepad++, Visual Studio Basic, etc.)
 - Discuss typing tags, then text data, then HTML, then inline CSS as needed
 - Discuss White Space as necessary for rendering (sometimes rendering is stopped if White Space not formatted properly)
 
-### W3 Schools Reference Webpages
-- HTML Tags must be included: `<html>, <head>, <body>`
-- See: https://www.w3schools.com/html/default.asp for full HTML Tutorials listing
-- `<head>`, <a href="https://www.w3schools.com/html/html_head.asp">Click Here for W3 Schools Reference</a>
-- `<body>`, <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Click Here for W3 Schools Reference</a>
-- Special Symbols, <a href="https://www.w3schools.com/html/html_symbols.asp">Click Here for W3 Schools Reference</a>
+  Additional Reference: W3 Schools Reference Webpages
+    - HTML Tags must be included: `<html>, <head>, <body>`
+    - See: https://www.w3schools.com/html/default.asp for full HTML Tutorials listing
+    - `<head>`, <a href="https://www.w3schools.com/html/html_head.asp">Click Here for W3 Schools Reference</a>
+    - `<body>`, <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Click Here for W3 Schools Reference</a>
+    - Special Symbols, <a href="https://www.w3schools.com/html/html_symbols.asp">Click Here for W3 Schools Reference</a>
 
-### Getting Started 
-Type `html:5` to add boilerplate
+  Type `html:5` to add boilerplate
 
-### Beginning an HTML Doc
-```html
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-</html>
-```
-
-### Common Head Tags with inline CSS
-
-```html
-  <head>
-
-    <!-- Used by keyboard -->
-    <meta charset="utf-8">
-
-    <title>Learning HTML</title>
-
-    <!-- Used by Browser or Google Search-->
-    <meta name="author" content="Mark Mercer">
-    <meta name="description" content="Learning HTML by building a simple Website">
-    <meta name="keywords" content="boilerplate, starter code, HTML, learning">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- viewport is meant for Responsive Web Design, which we will look at later -->
-  </head>
-```
-
-### Common Semantic Body Tags
+2. Common Semantic Body Tags
 
 ``` html
 <body>
@@ -169,285 +144,10 @@ Type `html:5` to add boilerplate
 </body>
 ```
 
-### An Example Footer, including
-- HTML Tags
-- Blockquote with single line comment for date accessed
-- Text Hyperlink with forced navigation experience (opening a new tab)
-  - Also viewing other choices ATOM.io offers with autocomplete
-- Example Special Symbol
+See https://github.com/QEHS-Websites/LearningHTML.github.io for more details 
 
-``` html
-<footer>
-  <blockquote cite="https://www.brainyquote.com/quotes/mitch_kapor_163583">
-    <!-- Date Accessed 20201120-->
-  </blockquote>
-  <p>
-    <strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
-    <em><a href="https://www.brainyquote.com/quotes/mitch_kapor_163583" target="_blank">
-       - Mitch Kapor</a>
-    </em>
-  </p>
-  <p>&copy Mark Mercer, powered by MercersKitchen in GitHub</p>
+3. Advanced Display Topic, Media Quires 
 
-</footer>
-```
-
-### Additional HEAD Notes
-
-General List of all HTML `<head>`
-- `<title>`: title in tab, when added to favorites, displays title in search engine when website is hosted live (i.e. GitHub Hosting)
-- `<meta>`: see notes and meta attributes below
-- `<base>`: for all URLs not defined, this becomes the base URL, for example using Google Drive as a Folder
-- Other tags studied in Intermediate Website Projects
-  - link: use to link external style sheets
-  - script: used to define JavaScript, client-side, scripts
-  - style: General CSS Style name:values for this webpage
-
-Metadata Notes
-- General W3 Schools Reference, <a href="https://www.w3schools.com/tags/tag_meta.asp">Click Here</a>
-- Always passed as name-value pairs
-- Never displayed in Browser
-- Cross-scripting can happen or JavaScript can access these through DOM Values: <a href="https://www.w3schools.com/jsref/dom_obj_meta.asp">Click Here for W3 Reference</a>
-- <a href="">Click Here for enrichment examples of JavaScript or Cross Scripting Examples</a>
-
-List of all meta attributes
-- name="author | description | keywords | viewport" content="": <a href="https://www.w3schools.com/tags/att_meta_name.asp">Click Here for examples from W3 Schools</a>
-- http-equiv="content-type | default-style | refresh" content="": <a href="https://www.w3schools.com/tags/att_meta_http_equiv.asp">Click Here for examples from W3 Schools</a>
-- See HEAD Examples in <a href="https://github.com/QEHS-Websites/Intro-Who-Am-I-Project/tree/master/Pathway%20and%20Files#additional-boilerplate-for-who-am-i--essay-projects-both-introductory-projects">this boilerplate</a>
-
-An Exemplar `<head>` with `<meta>` tags
-```html
-<meta charset="utf-8">
-
-<title>Who Am I Project</title>
-
-<meta name="author" content="Jane Doe">
-<meta name="description" content="Example boilerplate for Who am I Project">
-<meta name="keywords" content="boilerplate, starter code">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-
----
-
-### Additional Body Notes and Reference
-- See <a href="https://github.com/MercersKitchen/Webpages-Sites/blob/master/HTML%20Lessons/HTML_Summary.txt">full HTML Reference<>
-- See: https://github.com/MercersKitchen/Webpages-Sites/tree/master/HTML%20Lessons
-
-#### HTML Layout Elements
-https://www.w3schools.com/html/html_layout.asp
-
-```html
-<!-- Review specific tags such as h1-h6, p, & special symbols like &copy-->
-<header><h1>Header Title</h1></header>
-    <nav><h1>Navigation</h1></nav>
-    <aside><p>This is the aside space.</p></aside>
-    <section>
-      <h3>Section 1</h3>
-      <article>
-        <p>This is article 1 in section 1.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 1.</p>
-      </article>
-    </section>
-    <section>
-      <h3>Section 2</h3>
-      <article>
-        <p>This is article 1 in section 2.</p>
-      </article>
-      <article>
-        <p>This is article 2 in section 2.</p>
-      </article>
-    </section>
-
-  </body>
-
-  <footer>&copy Mark Mercer, powered by MercersKitchen (GitHub)</footer>
-```
-
----
-
-# Text Resizing according to Responsive Design
-
----
-
-Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
-- Must use Responsive: https://www.w3schools.com/html/html_responsive.asp
-  - Also see the W3 Schools Tutorial: https://www.w3schools.com/css/css_rwd_intro.asp
-- Must use the box-sizing property to border-box (padding and border are inside total with and height of all elements)
-  - images are easier to adjust
-  - text is a little more difficult to vw units
-
----
-
-Resizing Text
-- Example: 
-```html
-<h1 style="font-size:10vw">Hello World</h1>
-```
-
-- Another example using Hello World Text or the Website for H-tags and P-Tags
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-
-<h1 style="font-size:10vw;">Responsive Text</h1>
-
-<p style="font-size:5vw;">Resize the browser window to see how the text size scales.</p>
-
-<p style="font-size:5vw;">Use the "vw" unit when sizing the text. 10vw will set the size to 10% of the viewport width.</p>
-
-<p>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
-
-</body>
-</html>
-```
-
----
-
-# Image Resizing according to Responsive Design
-
----
-
-Explore layout options in W3 Schools: https://www.w3schools.com/html/html_layout.asp
-- Must use Responsive: https://www.w3schools.com/html/html_responsive.asp
-  - Also see the W3 Schools Tutorial: https://www.w3schools.com/css/css_rwd_intro.asp
-- Must use the box-sizing property to border-box (padding and border are inside total with and height of all elements)
-  - images are easier to adjust
-  - text is a little more difficult to vw units
-
----
-
-Online image tools
-- https://imageresizer.com/
-
-- use inline width property set at 100%
-- if trying to fit image into column, use max-width percentage, not window size
-- height becomes automatic
-```html
-<img src="img_girl.jpg" style="width:100%;">
-
-```
-- if max-width is set to 100%, image will scale down but never up and be larger than original size
-- Therefore, will have weird white space in rendering
-```html
-<img src="img_girl.jpg" style="max-width:100%;height:auto;">
-
-```
-
-- Advanced, Showing different images depending on media queries
-- Illustrates picture and img together
-- See https://www.w3schools.com/tags/tag_picture.asp
-```html
-<picture>
-  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-  <source srcset="flowers.jpg">
-  <img src="img_smallflower.jpg" alt="Flowers">
-</picture>
-
-```
-
----
-
-# Enrichment: Responsive Design ideas for Imbedding Videos
-
-Imbedding Videos: https://www.w3schools.com/css/css_rwd_videos.asp
-
-
----
-
-# Enrichment: Responsive Design ideas and full tutorial
-
-Also see full Responsive Web Design Tutorial
-- https://www.w3schools.com/css/css_rwd_intro.asp
-
-Simple Two Column Example:
-- See: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_webpage
-- Or See: Responsive 2-Column Example Folder
-
-Simple Three Column Examples
-- See Responsive 3-Column Example Folder
-
-Typical 12-Column Example, is getting a little too much for introductory CS, especially with small screens
-- See https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_cols
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.header {
-  border: 1px solid red;
-  padding: 15px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px solid red;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-</style>
-</head>
-<body>
-
-<div class="header">
-  <h1>Chania</h1>
-</div>
-
-<div class="row">
-
-<div class="col-3">
-  <ul>
-    <li>The Flight</li>
-    <li>The City</li>
-    <li>The Island</li>
-    <li>The Food</li>
-  </ul>
-</div>
-
-<div class="col-9">
-  <h1>The City</h1>
-  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
-</div>
-
-</div>
-
-</body>
-</html>
-
-```
-
-- Media Queries
 - You can see the size of a chrome window in the top right corner for a moment, resize, then toggle between the two screens to get the minimum media width you want before stacking
 
 - Example 1
@@ -609,5 +309,9 @@ Typical 12-Column Example, is getting a little too much for introductory CS, esp
   - Able to find this in Developer Tools and the Analyze Button
 
 Example Videos using Accessibility: https://youtu.be/OGwKOxh5hqQ?t=5m28s
+
+---
+
+# To Include
 
 ---
