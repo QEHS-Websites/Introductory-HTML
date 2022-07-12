@@ -2,6 +2,7 @@
 Introductory HTML with inline CSS
 
 **Purpose:** use a ReadMe.md file as a simply HTML Document to track changes and To Do Lists for a hosted webpage
+- see using a checklist: [x], [ ], and <del>cross-out</del>
 
 **Purpose:** build simple webpages that are linked to each other, rendered in a browser, using HTML
 - Full Listing of HTML Tags: https://www.w3schools.com/tags/default.asp
